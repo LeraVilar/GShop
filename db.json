@@ -1,70 +1,184 @@
 {
   "products": [
     {
-      "image": "1.jpg",
-      "name": "Some weapon",
+      "image": {
+        "1" : "1.jpg",
+        "2" : "2.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": false,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "1",
       "price": 2100,
-      "article": "T1",
-      "available": true,
-      "category": "Мужские"
+      "id": "1",
+      "category": "a"
     },
     {
-      "image": "2.jpg",
-      "name": "Some weapon",
+      "image": {
+        "1" : "3.jpg",
+        "2" : "1.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": true,
+        "hot": false
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "2",
       "price": 3150,
       "sale": 4300,
-      "article": "T2",
-      "available": true,
-      "category": "Женские"
+      "id": "2",
+      "category": "s"
     },
     {
-      "image": "3.jpg",
-      "name": "Some weapon",
+      "image": {
+        "1" : "1.jpg",
+        "2" : "5.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": true,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "3",
       "price": 4200,
-      "article": "T3",
-      "available": false,
-      "category": "Женские"
+      "id": "3",
+      "category": "d"
     },
     {
-      "image": "4.jpg",
-      "name": "Some weapon",
+      "image": {
+        "1" : "3.jpg",
+        "2" : "2.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": true,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "4",
       "price": 5300,
       "sale": 7600,
-      "article": "T4",
-      "available": true,
-      "category": "Мужские"
+      "id": "4",
+      "category": "f"
     },
     {
-      "image": "5.jpg",
-      "name": "Some weapon",
+      "image": {
+        "1" : "7.jpg",
+        "2" : "4.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": false,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "5",
       "price": 6500,
-      "article": "T5",
-      "available": false,
-      "category": "Женские"
+      "id": "5",
+      "category": "g"
     },
     {
-      "image": "6.jpg",
-      "name": "Some weapon",
-      "price": 8700,
-      "article": "T6",
-      "available": true,
-      "category": "Женские"
+      "image": {
+        "1" : "8.jpg",
+        "2" : "3.jpg"
+      },
+      "shild": {
+        "sale": false,
+        "new": false,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "6",
+      "price": 11700,
+      "id": "6",
+      "category": "h"
     },
     {
-      "image": "7.jpg",
-      "name": "Some weapon",
+      "image": {
+        "1" : "1.jpg",
+        "2" : "6.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": false,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "7",
       "price": 8700,
-      "article": "T7",
-      "available": true,
-      "category": "Женские"
+      "id": "7",
+      "category": "j"
     },
     {
-      "image": "8.jpg",
-      "name": "Some weapon",
+      "image": {
+        "1" : "5.jpg",
+        "2" : "6.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": true,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "8",
       "price": 8700,
-      "article": "T8",
-      "available": true,
-      "category": "Женские"
+      "id": "8",
+      "category": "k"
+    },
+    {
+      "image": {
+        "1" : "3.jpg",
+        "2" : "1.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": true,
+        "hot": false
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "9",
+      "price": 3150,
+      "sale": 4300,
+      "id": "9",
+      "category": "s"
+    },
+    {
+      "image": {
+        "1" : "1.jpg",
+        "2" : "5.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": true,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "10",
+      "price": 4200,
+      "id": "10",
+      "category": "d"
+    },
+    {
+      "image": {
+        "1" : "3.jpg",
+        "2" : "2.jpg"
+      },
+      "shild": {
+        "sale": true,
+        "new": true,
+        "hot": true
+      },
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam architecto ratione quisquam tempora. Eaque unde explicabo aut? Temporibus, esse quisquam consectetur aut nam qui harum accusamus tempore numquam officiis beatae!",
+      "name": "11",
+      "price": 5300,
+      "sale": 7600,
+      "id": "11",
+      "category": "f"
     }
   ]
 }
