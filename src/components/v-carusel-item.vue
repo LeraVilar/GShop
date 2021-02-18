@@ -16,6 +16,8 @@ export default {
 </script>
 <style lang="scss">
     .v-carusel-item {
-        width: 100%;
+        & img {
+            max-width: 1440px;
+        }
     }
 </style>

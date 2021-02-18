@@ -51,8 +51,9 @@ export default {
 </script>
 <style lang="scss">
     .wrapper {
-        width: 1440px;
-        margin: 100px auto;
+        width: 900px;
+        height: 400px;
+        margin: 100px 12%;
         overflow: hidden;
     }
     .v-carusel {

@@ -1,7 +1,8 @@
-
 import Vue from 'vue'
 import Vuex from 'vuex'
 import Axios from 'axios'
+// import _ from 'lodash';
+
 
 Vue.use(Vuex);
 
@@ -18,7 +19,7 @@ const store = new Vuex.Store ({
             if(state.cart.length) {
                 let isProductExists = false;
                 state.cart.map(function (item) {
-                    if (item.article === product.article) {
+                    if (item.id === product.id) {
                         isProductExists = true;
                         item.quantity++
                     }
@@ -30,6 +31,14 @@ const store = new Vuex.Store ({
                 state.cart.push(product)
             }
             
+        },
+        INCREM: (state, index) => {
+            state.cart[index].quantity++
+        },
+        DECREM: (state, index) => {
+            if (state.cart[index].quantity > 1) {
+                state.cart[index].quantity--
+            }
         },
         REMOVE_FROM_CART: (state, index) => {
                 state.cart.splice(index, 1)
@@ -54,6 +63,12 @@ const store = new Vuex.Store ({
         },
         DELETE_FROM_CART({commit}, index) {
             commit('REMOVE_FROM_CART', index)
+        },
+        INCREM_ITEM({commit}, index) {
+            commit('INCREM', index)
+        },
+        DECREM_ITEM({commit}, index) {
+            commit('DECREM', index)
         }
     },
     getters: {
@@ -62,8 +77,12 @@ const store = new Vuex.Store ({
         },
         CART(state) {
             return state.cart;
-        }
-    }
+        },
+        PROD_BY_ID: state => id => {
+            return state.products.find(products => products.id == id);
+            
+    },
+}
 });
 
 export default store;

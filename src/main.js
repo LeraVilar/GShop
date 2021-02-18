@@ -3,7 +3,10 @@ import App from './App.vue'
 import store from './vuex/store'
 import router from './router/router'
 import 'material-design-icons-iconfont'
-
+import VueTreeNavigation from 'vue-tree-navigation';
+import { TablePlugin } from 'bootstrap-vue'
+Vue.use(TablePlugin)
+Vue.use(VueTreeNavigation)
 
 
 Vue.config.productionTip = false
@@ -11,5 +14,7 @@ Vue.config.productionTip = false
 new Vue({
   render: h => h(App),
   store,
-  router
+  router,
+  VueTreeNavigation,
+  
 }).$mount('#app')
